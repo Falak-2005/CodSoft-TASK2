@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fHdhdGVyfGVufDB8fHx8MTY4MjY5NzY5Nw&ixlib=rb-1.2.1&q=80&w=1920') no-repeat center center/cover;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background: #FF4081;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition:  0.3s;
+}
+
+.cta-button:hover {
+    background: #D5006D;
+}
+
+.services {
+    padding: 60px 0;
+    text-align: center;
+    background: #ffffff;
+}
+
+.services h2 {
+    margin-bottom: 80px;
+    font-size: 2em;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.service-column {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 40px;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-column:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #FF4081;
+    text-decoration: none;
+    transition: color 0}
