@@ -1,1 +1,2 @@
 # CodSoft-TASK2
+TASK 2- This was to create a landing page to showcase my skills of HTML and CSS.Through this task I have learnt to create columns, divide sections, arrange items, and add headers and footers. In this I have Paid more attention to alignments, padding, color palette, boxes, and other elements. I have kept this page very simple while ensuring a visually appealing and user-friendly design.
